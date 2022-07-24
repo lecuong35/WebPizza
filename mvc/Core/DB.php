@@ -4,12 +4,12 @@ class DB extends mysqli {
 
     
     public $con;
-    protected $dbHost = "localhost:3307";
+    protected $dbHost = "localhost";
     protected $user = "root";
     protected $pass = "";
-    protected $dbName = "quan_ly_cua_hang_pizza_hust";
-    //protected $user = "phpuser";
-    //protected $pass = "phpuserpw";
+    protected $dbName = "laravel-api";
+    //protected $user = "";
+    //protected $pass = "";
     //protected $dbName = "wishlist";
    
     // auto connect to DB whenever a DB is instantiated
